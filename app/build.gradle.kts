@@ -78,7 +78,6 @@ dependencies {
 
     //Hilt
     implementation("com.google.dagger:hilt-android:$hiltVersion")
-    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
     ksp("com.google.dagger:hilt-android-compiler:$hiltVersion")
 
@@ -86,4 +85,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 
+    //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    //Gson
+    implementation ("com.squareup.okhttp3:okhttp:5.0.0-alpha.12")
+    //OkHttp Interceptor
+    implementation ("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.12")
+    implementation ("com.google.code.gson:gson:2.10.1")
 }
